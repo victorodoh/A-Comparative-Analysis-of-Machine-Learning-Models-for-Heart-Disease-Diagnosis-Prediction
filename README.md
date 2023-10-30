@@ -24,6 +24,8 @@ The modes were trained on the training sets and evaluated on the test sets.
 
 The evaluation metrics used are; Accuracy, Precision, Recall, F-score, and AUC
 
+![](Evaluation_metrics.png)
+
 - Across all models, the initial dataset has the highest accuracy, while ADASYN with outliers has the lowest accuracy (Except for the Logistic Regression).
 - The precision of all models is generally low, ranging from 0.204960 to 0.623306, indicating that many false positives are being classified as positive.
 - The recall of all models is also generally low, ranging from 0.042009 to 0.815342, indicating that many true positives are being classified as false negatives.
