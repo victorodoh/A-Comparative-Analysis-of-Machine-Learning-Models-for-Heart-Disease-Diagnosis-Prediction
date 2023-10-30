@@ -9,4 +9,3 @@ Model performances compared for the following scenarios:
 - Oversampled data without outliers (SMOTE)
 - Oversampled data with outliers (Using ADASYN Oversampling Technique)
 - Oversampled without outliers (ADASYN)
-![image](https://github.com/victorodoh/A-Comparative-Analysis-of-Machine-Learning-Models-for-Heart-Disease-Diagnosis-Prediction/assets/123763609/5ef1f965-69c7-46f2-9e1b-4ff17751f00b)
