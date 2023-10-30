@@ -14,7 +14,9 @@ Model performances compared for the following scenarios:
 
 The four models used for this study were chosen based on the following reasons;
 LightGBM and XGBoost are both gradient-boosting algorithms that are frequently used for binary classification problems like predicting heart disease diagnosis. They can handle imbalanced datasets, which is significant for this study since the dataset used is highly imbalanced across some features. These algorithms work by creating decision trees iteratively to predict the class label of the target variable. They can handle a large number of input features with high accuracy and efficiency, hence, they can handle my chosen data well.
+
 The Random Classifier is a simple but effective ML algorithm that is suitable for classification problems like in this study. This algorithm works by randomly selecting a subset of features and creating a decision tree on the selected features. This procedure is repeated several times to create an ensemble of decision trees, which are then combined to generate the final prediction. The Random Classifier can handle noisy and imbalanced datasets and can produce accurate predictions with little computational cost.
+
 Lastly, the Logistic RegressionCV algorithm is a variation of logistic regression that uses cross-validation to estimate the regularization parameter, which aids in reducing overfitting. Logistic regression is a linear classification algorithm that predicts the probability of an instance belonging to a particular class based on the input features. It can handle both categorical and numerical input features and is widely used for binary classification problems like this.
 The modes were trained on the training sets and evaluated on the test sets.
 
